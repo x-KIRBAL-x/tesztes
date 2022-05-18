@@ -38,15 +38,6 @@ public class HomePage {
     @FindBy(xpath = "//*[@id=\"layer_cart\"]/div[1]/div[2]/div[4]/span/span")
     private WebElement backshop;
 
-////*[@id="center_column"]/p  <p class="alert alert-warning">
-//					Please enter a search keyword        0 results have been found.
-    /*@FindBy(xpath = "/html/body/div/div[2]/div/div[3]/div[2]/p[text()='Please enter a search keyword']")
-    private WebElement alert;*/
-
-    //@FindBy(xpath = "//*[@id=\"newsletter_block_left\"]/h4[text()='Newsletter']")
-//    @FindBy(css = "#center_column > h1 > span[text()=' Please enter a search keyword ']")
-
-
     @FindBy(xpath = "//*[@id=\"center_column\"]/p[text()=' Please enter a search keyword ']")
     private WebElement alert;
 
